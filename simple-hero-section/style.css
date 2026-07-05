@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 350px;
+  width: 75%;
+  background-color: antiquewhite;
+  border-radius: 50px;
+  margin: 100px;
+  padding: 0px 35px;
+}
