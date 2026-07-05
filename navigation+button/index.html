@@ -1,71 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Navigation + Button</title>
   <style>
-    *{
+    * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-  .container {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(59, 59, 102);
-    gap:20px;
-    align-items: center;
-    height: 50px;
-  }
-  .main-head{
-  color: white;
-  margin-left: 20px;
-  font-size: large;
-  font-weight: bold;
-  }
-  .container > div {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.list {
-  list-style: none;
-  display: flex;
-  gap:20px;
-}
-  .main-nav a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  .main-nav a:hover{
-    color: brown;
-  }
-  .btn{
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    padding: 8px 20px;
-    cursor: pointer;
-    font-size: 14px;
-  }
 
+    .container {
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(59, 59, 102);
+      gap: 20px;
+      align-items: center;
+      height: 50px;
+    }
+
+    .main-head {
+      color: white;
+      margin-left: 20px;
+      font-size: large;
+      font-weight: bold;
+    }
+
+    .container>div {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .list {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .main-nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    .main-nav a:hover {
+      color: brown;
+    }
+
+    .btn {
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 20px;
+      cursor: pointer;
+      font-size: 14px;
+    }
   </style>
 </head>
+
 <body>
- <div class="container">
-  <h1 class="main-head">TECH STORE</h1>
-  <div >
-    <ul class="list">
-      <li class="main-nav"><a href="#">Home</a></li>
-      <li class="main-nav"><a href="#">Products</a></li>
-      <li class="main-nav"><a href="#">Contact</a></li>
-    </ul>
-    <button type="button" class="btn">Login</button>
+  <div class="container">
+    <h1 class="main-head">TECH STORE</h1>
+    <div>
+      <ul class="list">
+        <li class="main-nav"><a href="#">Home</a></li>
+        <li class="main-nav"><a href="#">Products</a></li>
+        <li class="main-nav"><a href="#">Contact</a></li>
+      </ul>
+      <button type="button" class="btn">Login</button>
+    </div>
   </div>
- </div>
-    
+
 </body>
+
 </html>
