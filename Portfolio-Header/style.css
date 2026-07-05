@@ -11,5 +11,18 @@
       background-color: rgb(125, 143, 137);
 
     }
-    
+    .Details{
+      margin-left: 20px;
+    }
+    .Details h2{
+      font-size: 25px;
+      font-weight: bold;
+      color: black;
+    }
+    .Details p{
+      color: rgb(221, 217, 217);
+      font-size: medium;
+      font-weight: 400;
+    }
+   
  
