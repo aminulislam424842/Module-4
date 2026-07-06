@@ -5,7 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mini Calender</title>
-  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(to right, blue, red, orange);
+    }
+
+    .calendar-wrapper {
+      text-align: center;
+    }
+
+    .calendar {
+      display: grid;
+      grid-template-columns: repeat(7, 80px);
+      gap: 5px;
+      text-align: center;
+      height: 300px;
+      justify-content: center
+    }
+
+    
+  </style>
 </head>
 
 <body>
