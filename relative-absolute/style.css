@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  background-color: rgb(138, 134, 134);
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card p{
+  color:rgb(204, 192, 192);
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+}
+.badge{
+ position: absolute;
+ top: 12px;
+ right: 12px;
+ color:white;
+ background-color: red;
+ font-size: 20px;
+ font-weight: 700;
+ font-style: normal;
+ padding: 0 8px;
+ border-radius: 5px;
+}
