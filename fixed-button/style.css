@@ -6,3 +6,33 @@
 body{
   padding: 40px 8%;
 }
+header{
+  text-align: center;
+  margin-bottom: 20px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section h2{
+  font-size: 30px;
+  font-weight: 900;
+  font-style: normal;
+  color: brown;
+  margin-bottom: 10px;
+}
+section p{
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(64, 84, 85);
+  margin-bottom: 20px;
+}
